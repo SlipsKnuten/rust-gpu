@@ -1,0 +1,12 @@
+[package]
+name = "learning-shader"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+spirv-std = { workspace = true }
+shared = { workspace = true }
+shader-utils = { path = "../shader-utils" }

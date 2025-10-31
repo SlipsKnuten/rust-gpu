@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+members = ["shader", "shader-utils", "runner"]
+
+# Inherit settings from the main rust-gpu workspace
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[workspace.dependencies]
+spirv-std = { path = "../crates/spirv-std" }
+spirv-builder = { path = "../crates/spirv-builder" }
+shared = { path = "../examples/shaders/shared" }

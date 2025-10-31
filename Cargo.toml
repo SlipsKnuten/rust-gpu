@@ -10,6 +10,7 @@ members = [
     "examples/runners/ash",
     "examples/runners/wgpu",
     "examples/runners/wgpu/builder",
+    "examples/runners/learning-runner",
     "examples/shaders/reduce",
     "examples/shaders/sky-shader",
     "examples/shaders/simplest-shader",
@@ -30,6 +31,7 @@ members = [
     "tests/compiletests/deps-helper",
     "tests/difftests/bin",
     "tests/difftests/lib",
+    "learning-project",
 ]
 
 [workspace.package]

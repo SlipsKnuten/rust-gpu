@@ -1,0 +1,13 @@
+[package]
+name = "shader-utils"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# These work on BOTH CPU and GPU!
+spirv-std = { workspace = true }
+shared = { workspace = true }
+
+[dev-dependencies]
+# For testing on CPU
+glam = { version = "0.30.8" }

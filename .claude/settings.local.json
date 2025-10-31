@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(git log:*)",
+      "WebSearch",
+      "Bash(gh issue view:*)",
+      "Bash(gh repo view:*)",
+      "Bash(cargo build:*)",
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Read(//c/Users/gurra/Documents/**)",
+      "Bash(cargo run:*)",
+      "Bash(cargo test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
